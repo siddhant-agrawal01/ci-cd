@@ -16,6 +16,6 @@ app.post("/sighup", (req, res) => {
   res.json({
     message:"sighup success",
     id:username.id
-  }).
+  })
 });
 app.listen(3000);
