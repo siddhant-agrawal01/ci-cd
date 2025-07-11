@@ -36,6 +36,9 @@ importers:
 
   apps/web:
     dependencies:
+      '@prisma/client':
+        specifier: 6.11.0
+        version: 6.11.0(prisma@6.11.0(typescript@5.8.2))(typescript@5.8.2)
       '@repo/ui':
         specifier: workspace:*
         version: link:../../packages/ui
